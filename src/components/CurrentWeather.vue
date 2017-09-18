@@ -30,7 +30,7 @@
         this.lat = coord.lat
         this.lon = coord.lon
 
-        this.axios.get('http://api.openweathermap.org/data/2.5/weather', {
+        this.axios.get('https://api.openweathermap.org/data/2.5/weather', {
           params: {
             lat: this.lat,
             lon: this.lon,
